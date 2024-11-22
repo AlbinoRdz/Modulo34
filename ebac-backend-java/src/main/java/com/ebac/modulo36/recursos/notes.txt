@@ -1,0 +1,33 @@
+Docker
+====================================================================================================
+docker run -d --rm --name mongo -e MONGO_INITDB_ROOT_USERNAME=root -e MONGO_INITDB_ROOT_PASSWORD=toor -p 27017:27017 mongo
+
+docker run -d --rm --name mongo-express -e ME_CONFIG_MONGODB_ADMINUSERNAME=root -e ME_CONFIG_MONGODB_ADMINPASSWORD=toor -e ME_CONFIG_MONGODB_URL=mongodb://root:toor@172.17.0.2:27017/ -p 8081:8081 mongo-express
+
+Consultas
+====================================================================================================
+
+1.- Crear base de datos con nombre modulo36
+
+2.- Ejecutar las siguientes consultas para crear los registros (Opcional)
+
+{
+	"nombre": "Esmeralda Perez",
+	"edad": 28,
+	"profesion": "Software Engineer"
+}
+
+{
+	"nombre": "Jose Luis Morales",
+	"edad": 28,
+	"profesion": "Software Engineer",
+	"estado civil": "Casado"
+}
+
+3.- Crear tabla telefonos y agregar informacion (Opcional)
+
+{
+	"idUsuario": "<REEMPLAZAR_CON_IS_DEL_USUARIO>",
+	"tipo": "Oficina",
+	"numero": "+52 55-1111-2222"
+}
