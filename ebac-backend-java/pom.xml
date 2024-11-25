@@ -41,6 +41,16 @@
             <artifactId>spring-context</artifactId>
             <version>5.3.9</version>
         </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>2.0.9</version> <!-- Reemplaza con la versión más reciente -->
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.4.11</version> <!-- Reemplaza con la versión más reciente -->
+        </dependency>
     </dependencies>
 
 </project>
